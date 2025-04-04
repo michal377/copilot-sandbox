@@ -2,27 +2,27 @@
 .participants {
   margin-top: 15px;
   padding: 15px;
-  background-color: #eef6ff;
-  border: 1px solid #aaccee;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f0f8ff; /* Light blue background for better readability */
+  border: 1px solid #87ceeb; /* Sky blue border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .participants strong {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   font-size: 1.2em;
-  color: #2a5d9e;
+  color: #1e90ff; /* Dodger blue for emphasis */
 }
 
 .participants ul {
-  list-style-type: circle;
-  padding-left: 25px;
+  list-style-type: disc; /* Disc bullets for clarity */
+  padding-left: 20px;
   margin: 0;
 }
 
 .participants ul li {
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   font-size: 1em;
-  color: #4a4a4a;
+  color: #333; /* Dark gray for readability */
 }
